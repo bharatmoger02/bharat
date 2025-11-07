@@ -13,8 +13,24 @@ console.log(aid);*/
     age : 21,
 };
 console.log(myObj);*/
-const myFunction = function(){
-    console.log("hello world");
+/*const myFunction = function(){
+ console.log("hello world");
 }
-myFunction();
+myFunction();*/
+/*t person = "bharat"
+let anotherPerson = person
+anotherPerson = "lohit"
+console.log(person);
+console.log(anotherPerson)*/
+let user1 = {
+    email : "bha123@gmail.com",
+    upi : "123ybl"
+}
+let user2 = user1
+user2.email = "lo@gmail.com"
+console.log(user1.email)
+console.log(user2.email)
+
+
+
 
