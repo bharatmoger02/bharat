@@ -10,3 +10,6 @@ abstract class intr implements Interf //if you dont want to compile m2//
   //public void m2(){
   //}
 }
+class subIntr extends intr{
+    public void m2(){}
+}
